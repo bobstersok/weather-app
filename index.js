@@ -1,6 +1,6 @@
 function getWeather() {
   var country = document.getElementById('weather-search').value;
-  const API_KEY = 'CHANGE THIS';
+  const API_KEY = 'e43e252876946656278ec75771466f40';
   console.log(country);
   const url =
     'https://api.openweathermap.org/data/2.5/weather?q=' +
